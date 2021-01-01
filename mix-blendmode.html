@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>mix-blendmode</title>
+    <style>
+        body{
+            font-family: 'Courier New', Courier, monospace;
+
+        }
+        #box{
+            width: 1500px;
+            height: 440px;
+            border: 2px solid black;
+            
+
+        }
+        
+        h2{
+        font-size: 150px;
+        margin: 0;
+
+            
+        }
+        h2.first{
+            color: green;
+        }
+        h2.second{
+            color: hotpink;
+            margin-top:-140px;
+            margin-left: 10px;
+            mix-blend-mode: screen;
+        }
+
+    </style>
+</head>
+<body>
+    <h1>mix-blendmode</h1>
+    <div id="box">
+        <h2 class="first">mix-blendmode</h2>
+        <h2 class="second"> mix-blendmode</h2>
+
+    </div>
+    
+</body>
+</html>
